@@ -25,6 +25,7 @@ const Page = async ({ params }: any) => {
       <div className="text-3xl font-bold">
         {response.attributes.title}
       </div>
+     
       <div className="text-black pt-[20px] pb-[40px]" dangerouslySetInnerHTML={{ __html: `${description}` }}></div>
     </div>
   );
